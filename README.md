@@ -2,13 +2,15 @@
 
 This is a simple way to extend AES (or almost any 256-bit+ block cipher) to use 512+ bit keyspace as a means to add additional resistance to quantum cryptanalysis. We're using OpenSSL in CTR mode and adding a simple XOR-encoding program wrapped up in a shell script (a cherry on top is optional). Adding in large blocks of cryptographically-secure random data using simple XOR techniques is expected to add a great deal of extra effort and confusion to cryptanalysis efforts.
 
-## Prerwequisites
+This idea is really just proof-of-concept and lots of testing and analysis has yet to be performed. You with caution.
 
-You'll need GCC. There are numerous tutorials online to assist you with this step, if you're new to the GCC toolchain. Use the included 'make' file. This program should compile easily using GCC 3.x+, but might require installation of GLIBC static libraries, if they're not already present.
+## Prerequisites
 
-You'll need 'dieharder' to use the optional included statistical analysis script. If you don't know what this is for, don;t worry about it.
+You'll need thew GCC tool chain. There are numerous tutorials online to assist you with this step, if you're new to the GCC toolchain. Use the included 'make' file. This program should compile easily using GCC 3.x+, but might require installation of GLIBC static libraries, if they're not already present.
 
-You'll need PHP (with CLI support) to use the optional included 'keymaker' utility.
+You'll need 'dieharder' to use the optional included statistical analysis script. If you don't know what this is for, don't worry about it.
+
+You'll need PHP (with CLI support) to use the optional included 'keymaker' utility. This is a handy tool for creating as muich mathematical "distance" between a user-supplied password and a generated key set.
 
 ## Author
 
