@@ -4,7 +4,9 @@ This is a simple way to extend AES (or almost any 256-bit+ block cipher) to use 
 
 ** This idea is really just proof-of-concept and lots of testing and analysis has yet to be performed. You with caution. **
 
-## Prerwequisites
+This idea is really just proof-of-concept and lots of testing and analysis has yet to be performed. You with caution.
+
+## Prerequisites
 
 You'll need GCC. There are numerous tutorials online to assist you with this step, if you're new to the GCC toolchain.
 
