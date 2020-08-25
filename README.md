@@ -8,12 +8,12 @@ This is a simple way to extend AES (or almost any 256-bit+ block cipher) to use 
 
 You'll need GCC. There are numerous tutorials online to assist you with this step, if you're new to the GCC toolchain.
 
-* In the 'xor' directory, use the included 'make' file to create this utility. Copy the cpmpiled binary to your chosen working directory.
-* In the 'testgen' directory, use the included 'make' file to create this utility. Copy the cpmpiled binary to your chosen working directory.
+* In the 'xor' directory, use the included 'make' file to create this utility. Copy the compiled binary to your chosen working directory.
+* In the 'testgen' directory, use the included 'make' file to create this utility. Copy the compiled binary to your chosen working directory.
 
-You'll need 'dieharder' to use the optional included statistical analysis script. This is mostly used to test the quality of encrypted data, which should test as statistically random.
+You'll need 'dieharder' to use the optional included statistical analysis script. This is mostly used to test the quality of encrypted data, which should test as statistically random. If it doesn't, there's a problem.
 
-You'll need PHP (with CLI support) to use the optional included 'keymaker' utility. This is a handy tool for creating as muich mathematical "distance" between a user-supplied password and a generated key set.
+You'll need PHP (with CLI support) to use the optional included 'keymaker' utility. This is a handy tool for creating as much mathematical "distance" between a user-supplied password and a final key set.
 
 ## Author
 
