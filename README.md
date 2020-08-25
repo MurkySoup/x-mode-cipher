@@ -2,7 +2,7 @@
 
 This is a simple way to extend AES (or almost any 256-bit+ block cipher) to use 512+ bit keyspace as a means to add additional resistance to cryptanalysis. We're using OpenSSL in CTR mode and adding a simple XOR-encoding program wrapped up in a shell script (a cherry on top is optional). Adding in blocks of cryptographically-secure random data using simple XOR techniques is expected to add a great deal of extra effort and confusion to cryptanalysis efforts.
 
-** This idea is really just proof-of-concept and lots of testing and analysis has yet to be performed. You with caution. **
+**This idea is really just proof-of-concept and lots of testing and analysis has yet to be performed. You with caution.**
 
 This idea is really just proof-of-concept and lots of testing and analysis has yet to be performed. You with caution.
 
